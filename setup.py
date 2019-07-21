@@ -12,7 +12,7 @@ setup(
     author_email='fuzztkd@gmail.com',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    install_requires=['requests'],
+    install_requires=['requests', 'praw'],
     entry_points={
         'console_scripts': [
             'redditkeys=redditkeys.cli:main',
